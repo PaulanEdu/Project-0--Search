@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Boogle Advanced Search</title>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Boogle Search</a>
+        </nav>
+        <div class="logo-container">
+            <h1 class="logo"><span class="blue-text">B</span><span class="red-text">o</span><span class="yellow-text">o</span><span class="blue-text">g</span><span class="green-text">l</span><span class="red-text">e</span></h1>
+            <h3 class="logo-subtext"><span class="blue-text">Advanced</span></h3>
+        </div>
+        <form id="form-area" action="https://www.google.com/search">
+            <div id="search-container">
+                <div id="label-container">
+                    <label for="q">All of these words...</label>
+                    <label for="epq">This exact word/phrase...</label>
+                    <label for="oq">Any of these words...</label>
+                    <label for="eq">None of these words...</label>
+                </div>
+                <div id="input-container">
+                    <input type="text" name="as_q" class="adv-input" id="q">
+                    <input type="text" name="as_epq" class="adv-input" id="epq">
+                    <input type="text" name="as_oq" class="adv-input" id="oq">
+                    <input type="text" name="as_eq" class="adv-input" id="eq">
+                </div>
+            </div>
+            <div id="form-button-container">
+                <input id="adv-btn" type="submit" value="Boogle Adv Search">
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,3 @@
+When you open this page in a browser, you should see a (very simple) HTML form. Type in a search query like “Harvard” and click “Google Search”, and you should be taken to Google’s search results page!
+
+How did that work? In this case, the action attribute on the form told the browser that when the form is submitted, the data should be sent to https://www.google.com/search. And by adding an input field to the form whose name attribute was q, whatever the user types into that input field is included as a GET parameter in the URL.
